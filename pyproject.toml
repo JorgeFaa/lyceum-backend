@@ -1,0 +1,19 @@
+[project]
+name = "lyceum-backend"
+version = "0.1.0"
+description = "Backend de Lyceum: asistente de estudio con RAG híbrido sobre apuntes de clase"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "sqlalchemy>=2.0",
+    "alembic",
+    "psycopg[binary]",
+    "pgvector",
+    "pydantic-settings",
+    "pyjwt",
+    "passlib[bcrypt]",
+    "python-multipart",
+    "sentence-transformers",
+    "anthropic",
+]
